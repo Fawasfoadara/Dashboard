@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Flux Retail Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>Flux Retail</h2>
+    <a href="#">Dashboard</a>
+    <a href="#">Products</a>
+    <a href="#">Orders</a>
+    <a href="#">Profile</a>
+  </div>
+
+  <!-- Main -->
+  <div class="main">
+
+    <div class="header">
+      <h1>Create Transaction</h1>
+      <input type="text" placeholder="Search products...">
+    </div>
+
+    <div class="content">
+
+      <!-- Products -->
+      <div class="products">
+
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab">
+          <h3>White T-Shirt</h3>
+          <p>Size: M</p>
+          <p class="price">£10</p>
+          <button>Add</button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1542272604-787c3835535d">
+          <h3>Blue Jeans</h3>
+          <p>Size: L</p>
+          <p class="price">£25</p>
+          <button>Add</button>
+        </div>
+
+        <div class="product-card">
+          <img src="M049LE-5.json.jpg">
+          <h3>Jacket</h3>
+          <p>Size: XL</p>
+          <p class="price">£40</p>
+          <button>Add</button>
+        </div>
+
+      </div>
+
+      <!-- Cart -->
+      <div class="cart">
+        <h2>Transaction</h2>
+
+        <div class="cart-item">
+          <p>White T-Shirt</p>
+          <p>£10</p>
+        </div>
+
+        <div class="cart-item">
+          <p>Blue Jeans</p>
+          <p>£25</p>
+        </div>
+
+        <hr>
+
+        <h3>Total: £35</h3>
+
+        <button class="checkout">Checkout</button>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
